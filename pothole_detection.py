@@ -16,8 +16,8 @@ from pyspark.ml.classification import LogisticRegression
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator
 import random
 #Creating a user to access S3 and save the output
-os.environ['AWS_ACCESS_KEY_ID'] = 'AKIA55LOFPGMA5LWZZHA'
-os.environ['AWS_SECRET_ACCESS_KEY'] = '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'
+os.environ['AWS_ACCESS_KEY_ID'] = ''
+os.environ['AWS_SECRET_ACCESS_KEY'] = ''
 # Initialize Spark session
 spark = SparkSession.builder \
     .appName("Pothole Detection") \
